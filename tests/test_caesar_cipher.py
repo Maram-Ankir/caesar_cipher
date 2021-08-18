@@ -32,7 +32,7 @@ def test_encryption_should_allow_non_alpha_characters_but_ignore():
 
 def test_decrypt_encrypted_version():
 
-    original_text="khaled al shishani"
+    original_text="Maram"
     crack_test=(crack(original_text))
     
     assert crack_test == original_text
